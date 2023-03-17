@@ -16,7 +16,6 @@ public class Reto {
         valorApuesta = Lectura.nextDouble();
         if (valorApuesta > saldoInicial) {
             System.out.println("el valor de apuesta no puede superar al saldo de recarga");
-            return;
         }
 
         String[] palabras = {"televisor", "messi", "vegetta777", "twitch"};
