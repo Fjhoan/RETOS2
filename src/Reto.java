@@ -18,7 +18,7 @@ public class Reto {
             System.out.println("el valor de apuesta no puede superar al saldo de recarga");
         }
 
-        String[] palabras = {"televisor", "messi", "vegetta777", "twitch"};
+        String[] palabras = {"televisor", "messi", "youtube", "twitch"};
         palabra = palabras[Random.nextInt(palabras.length)];
         palabraAdivina = new char[palabra.length()];
         Arrays.fill(palabraAdivina, '_');
