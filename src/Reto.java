@@ -10,7 +10,7 @@ public class Reto {
 
         Scanner Lectura = new Scanner(System.in);
         Random Random = new Random();
-        System.out.println("Bienvenid cuanto quiere recargar");
+        System.out.println("Bienvenido cuanto quiere recargar");
         saldoInicial = Lectura.nextDouble();
         System.out.println("cuanto desea apostar");
         valorApuesta = Lectura.nextDouble();
